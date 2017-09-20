@@ -34,7 +34,7 @@ function see_log_squid(){
 	echo "log monitor"
 	echo "Input user"
 	read User
-	tail -f /var/log/squid/access.log |grep $User |awk 'BEGIN{printf "User Name\tFrom IP\tConnection to\tWebsite\n"}{print $8"\t"$3"\t"$9"\t" if ($7 == $(awk -F ":") print${RED}$7}'
+	tail -f /var/log/squid/access.log |grep $User |awk 'BEGIN{printf "User Name\tFrom IP\tConnection to\tWebsite\n"}{print $8"\t"$3"\t"$9"\t" $7 }'
 }
 
 #Main

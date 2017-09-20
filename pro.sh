@@ -76,21 +76,21 @@ back2home(){		# Back to main menu
 	fi	
 }
 update_souce(){		# Update main source files
-	if [ -f 'shell_script/source.update.sh' ];then
-		rm -rf 'shell_script/source.update.sh'
+	if [ -f 'main/source.update.list' ];then
+		rm -rf 'main/source.update.list'
 		for i in $(ls $dir_script );do
-                        echo 'source' "$dir_script""$i" >> shell_script/source.update.sh
+                        echo 'source' "$dir_script""$i" >> main/source.update.list
                 done
 	else
 		for i in $(ls $dir_script );do
-			echo 'source' "dir_script""$i" >> shell_script/source.update.sh
+			echo 'source' "$dir_script""$i" >> main/source.update.list
 		done
 	fi
-	chmod +x shell_script/source.update.sh
+	
 }
 
 update_su(){             # call function from name list function and run
-        su_list_o=$(cat 'shell_script/source.update.sh')
+        su_list_o=$(cat '/source.update.sh')
                 for i in $su_list_o ;do
 			$su_list_o
 		done

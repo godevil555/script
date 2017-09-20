@@ -23,7 +23,17 @@ l_red='\033[1;32'
 l_green='\033[1;32m'
 yellow='\033[1;33m'
 nc='\033[0m'
-
+Black=`tput setaf 0`   #${Black}
+Red=`tput setaf 1`     #${Red}
+Green=`tput setaf 2`   #${Green}
+Yellow=`tput setaf 3`  #${Yellow}
+Blue=`tput setaf 4`    #${Blue}
+Magenta=`tput setaf 5` #${Magenta}
+Cyan=`tput setaf 6`    #${Cyan}
+White=`tput setaf 7`   #${White}
+Bold=`tput bold`       #${Bold}
+Rev=`tput smso`        #${Rev}
+Reset=`tput sgr0`      #${Reset}
 
 #################################################################
 get_ip=$(ifconfig |grep 'inet ' |grep -v 127.0.0.1 |awk  '{print $2}'|tr -d addr:)

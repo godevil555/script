@@ -29,6 +29,34 @@ function DNS_Server(){
 	
 	echo "test print IP ${get_ip}"
 }
-
+function Guacamole_Install(){
+	clear
+	echo -e "
+                                                                 
+                                                                 
+                                                ${Yellow}'.'              
+                            ${Green}'.:///:-.....'     ${Yellow}-yyys/-           
+                     ${Green}.://///++++++++++++++/-  ${Yellow}.yhhhhhys/'        
+                  ${Green}'.:++++++++++++++++++++++: ${Yellow}'yhhhhhhhhy-        
+          ${White}.+y' ${Green}'://++++++++++++++++++++++++' ${Yellow}':yhhhhyo:'         
+        ${White}-yNd. ${Green}'/+++++++++++++++++++++++++++//' ${Yellow}.+yo:' ${White}'::        
+       ${White}oNMh' ${Green}./++++++++++++++++++++++++++++++/:' '''' ${White}'mMh.      
+      ${White}-MMM:  ${Green}/+++++++++++++++++++++++++++++++++-.:/+:  ${White}yMMs      
+      ${White}-MMMs  ${Green}./++++++++++++++++++++++++++++++++++++/' ${White}.mMMy      
+      ${White}'NMMMy. ${Green}'-/+++++++++++++++++++++++++++++++/:.  ${White}:dMMMo      
+       ${White}+MMMMNy:' ${Green}'.:///++++++++++++++++++++//:-.' ${White}./hMMMMN'      
+       ${White}-MMMMMMMmy+-.${Green}''''.---::::::::::--..''''${White}.:ohNMMMMMMy       
+        ${White}sNMMMMMMMMMmdhs+/:${Green}--..........--${White}:/oyhmNMMMMMMMMMd-       
+         ${White}.+dNMMMMMMMMMMMMMMNNmmmmmmmNNNMMMMMMMMMMMMMMmy:'        
+            ${White}./sdNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmho:'           
+          ${White}'     .:+shmmNNMMMMMMMMMMMMMMMMNNmdyo/-'               
+          ${White}.o:.       '.-::/+ossssssso++/:-.'       '-/'          
+           ${White}.ymh+-.'                           ''./ydy.           
+             ${White}/dMMNdyo/-.''''         ''''.-:+shmMNh:             
+               ${White}:yNMMMMMMNmdhhyyyyyyyhhdmNNMMMMMNy:               
+                 ${White}':sdNNMMMMMMMMMMMMMMMMMMMNNds:'                 
+                     ${White}'-/+syhdmNNNNNNmdhyo/-'            
+"
+}
 
 
