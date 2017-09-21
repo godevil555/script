@@ -1,3 +1,4 @@
+source shell_script/guacmole_install.sh
 source shell_script/install.sh
 source shell_script/scrip.sh
 source shell_script/source.update.sh

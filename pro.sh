@@ -9,10 +9,10 @@
 source main/main
 source main/main-sc.sh
 #Can Edit 
-source shell_script/function.list
-source shell_script/scrip.sh
-source shell_script/main/main-sc.sh
+source shell_script/guacmole_install.sh
 source shell_script/install.sh
+source shell_script/scrip.sh
+source shell_script/source.update.sh
 ################################
 #shell_script/source.update.sh
 
